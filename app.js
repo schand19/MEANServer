@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
-const url = 'mongodb+srv://sarath:schand%4019@cluster0.7v5w7.mongodb.net/mySampleDB?retryWrites=true&w=majority';
+const url = 'mongodb+srv://';
 mongoose.connect(url , 
     { useNewUrlParser: true, 
       useUnifiedTopology: true, 
